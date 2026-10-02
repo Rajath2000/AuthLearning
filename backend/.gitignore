@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables - NEVER commit .env
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Database files - NEVER commit
+*.db
+*.sqlite
+*.sqlite3
+
+# Private keys - NEVER commit
+private.key
+public.key
+*.key
+*.pub
+
+# Logs & Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+.nyc_output/
+*.lcov
+
+# Temp & Cache
+tmp/
+temp/
+.tmp/
+.cache/
+*.cache
+
+# Testing
+.jest_cache/
+.vitest/
